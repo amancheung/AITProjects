@@ -1,18 +1,11 @@
-Idea:
-- A bank of user uploaded images
-	> *Maybe ranked by upvotes
-- Within each image:
-	> A list of user uploaded captions
-	> Ranked by upvotes
+# Caption-o-cracy
 
-User interactions:
-1) Upload images
-2) Upload captions
-3) Upvote on captions
-4) Upvote on images
-5) View images & captions
+## Overview 
+What if you found an image on the Web and you know it is dying for a witty caption? Caption-o-cracy is here for you!
 
-Data Model <br/>
+You can upload your image, and other users can upvote it if they think it's cool. Within your image upload, other users can upload their captions and be voted on. To make things easier, the app will rank each image and caption by its upvotes, so that you can find the best images and captions for today.
+
+## Data Model <br/>
 The application will store Users (Vote and Upload history), Images, and Image-Captions
 
 Each Image has its own ID (Collision avoiding algorithm needed) </br>
@@ -46,21 +39,28 @@ An example caption: </br>
 }
 ```
 
-Link to db.js of Schema </br>
+## Link to db.js of Schema </br>
 
-Wireframes: </br>
+## Wireframes: </br>
 Sample screenshots
 
-Site-map: </br>
+## Site-map: </br>
 Outline of website
 
-Modules for research</br>
+## User interactions:
+1) Upload images
+2) Upload captions
+3) Upvote on captions
+4) Upvote on images
+5) View images & captions
+
+## Modules for research</br>
 - 6 points -> Integrate Facebook Login for the web
 - 2 points -> Use Bootstrap CSS
 
-Link to main project file (skeleton app) </br>
+## Link to main project file (skeleton app) </br>
 
-References: </br>
+## References: </br>
 Facebook login - https://developers.facebook.com/docs/facebook-login/web#redirecturl </br>
 Bootstrap - http://getbootstrap.com/docs/4.1/getting-started/introduction/
 
