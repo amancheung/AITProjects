@@ -18,27 +18,33 @@ The application will store Users (Vote and Upload history), Images, and Image-Ca
 Each Image has its own ID (Collision avoiding algorithm needed) </br>
 Each Image has its Captions DB </br>
 
-An Example User: </br> <pre>
+An Example User: </br>
+``` javascript
 {
 	username: "usr123",
 	hash: ********,
 	history: [ [Image upload history] [Image voting history] [Caption upload history] [Caption voting history] ]
-} </pre>
+}
+```
 
-An Example Image: </br> <pre>
+An Example Image: </br>
+``` javascript
 {
 	name: "FunnyImage",
 	creatorName: "Jack0245",
 	score: 3 // # of upvotes
 	captionsDB: // Captions uploaded by users
-} </pre>
+}
+```
 
-An example caption: </br> <pre>
+An example caption: </br>
+``` javascript
 {
 	caption: "Gotta miss class because of that"
 	captionCreator: "Ruby542"
 	score: 5 // # of upvotes
-} </pre>
+}
+```
 
 Link to db.js of Schema </br>
 
