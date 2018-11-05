@@ -27,10 +27,10 @@ An Example User: </br> <pre>
 
 An Example Image: </br>
 {
-	name: "FunnyImage",
-	creatorName: "Jack0245",
-	score: 3 // # of upvotes
-	captionsDB: // Captions uploaded by users
+&nbspname: "FunnyImage",
+&nbspcreatorName: "Jack0245",
+&nbspscore: 3 // # of upvotes
+&nbspcaptionsDB: // Captions uploaded by users
 }
 
 An example caption:
