@@ -20,9 +20,9 @@ Each Image has its Captions DB </br>
 
 An Example User: </br> <pre>
 {
-	username: "usr123",
-	hash: ********,
-	history: [ [Image upload history] [Image voting history] [Caption upload history] [Caption voting history] ]
+<t>username: "usr123",
+<t>hash: ********,
+<t>history: [ [Image upload history] [Image voting history] [Caption upload history] [Caption voting history] ]
 } </pre>
 
 An Example Image: </br>
