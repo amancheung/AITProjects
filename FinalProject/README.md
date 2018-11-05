@@ -20,18 +20,18 @@ Each Image has its Captions DB </br>
 
 An Example User: </br> <pre>
 {
-<t>username: "usr123",
-<t>hash: ********,
-<t>history: [ [Image upload history] [Image voting history] [Caption upload history] [Caption voting history] ]
+&nbspusername: "usr123",
+&nbsphash: ********,
+&nbsphistory: [ [Image upload history] [Image voting history] [Caption upload history] [Caption voting history] ]
 } </pre>
 
-An Example Image: </br>
+An Example Image: </br> <pre>
 {
 &nbspname: "FunnyImage",
 &nbspcreatorName: "Jack0245",
 &nbspscore: 3 // # of upvotes
 &nbspcaptionsDB: // Captions uploaded by users
-}
+} </pre>
 
 An example caption:
 {
