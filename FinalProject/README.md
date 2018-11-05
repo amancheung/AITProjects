@@ -27,34 +27,34 @@ An Example User: </br> <pre>
 
 An Example Image: </br> <pre>
 {
-&nbspname: "FunnyImage",
-&nbspcreatorName: "Jack0245",
-&nbspscore: 3 // # of upvotes
-&nbspcaptionsDB: // Captions uploaded by users
+name: "FunnyImage",
+creatorName: "Jack0245",
+score: 3 // # of upvotes
+captionsDB: // Captions uploaded by users
 } </pre>
 
-An example caption:
+An example caption: </br> </pre>
 {
 	caption: "Gotta miss class because of that"
 	captionCreator: "Ruby542"
 	score: 5 // # of upvotes
-}
+} </pre>
 
-Link to db.js of Schema
+Link to db.js of Schema </br>
 
-Wireframes:
+Wireframes: </br>
 Sample screenshots
 
-Site-map:
+Site-map: </br>
 Outline of website
 
-Modules for research
+Modules for research</br>
 - 6 points -> Integrate Facebook Login for the web
 - 2 points -> Use Bootstrap CSS
 
-Link to main project file (skeleton app)  
+Link to main project file (skeleton app) </br>
 
-References:
-Facebook login - https://developers.facebook.com/docs/facebook-login/web#redirecturl
+References: </br>
+Facebook login - https://developers.facebook.com/docs/facebook-login/web#redirecturl </br>
 Bootstrap - http://getbootstrap.com/docs/4.1/getting-started/introduction/
 
