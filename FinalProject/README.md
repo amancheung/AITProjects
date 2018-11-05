@@ -19,13 +19,13 @@ Each Image has its own ID (Collision avoiding algorithm needed) </br>
 Each Image has its Captions DB </br>
 
 An Example User: </br>
-{
+{{{/{
 	username: "usr123",
 	hash: ********,
 	history: [ [Image upload history] [Image voting history] [Caption upload history] [Caption voting history] ]
-}
+/}}}}
 
-An Example Image:
+An Example Image: </br>
 {
 	name: "FunnyImage",
 	creatorName: "Jack0245",
