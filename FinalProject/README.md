@@ -12,13 +12,13 @@ User interactions:
 4) Upvote on images
 5) View images & captions
 
-Data Model
+Data Model <br/>
 The application will store Users (Vote and Upload history), Images, and Image-Captions
 
-Each Image has its own ID (Collision avoiding algorithm needed)
-Each Image has its Captions DB
+Each Image has its own ID (Collision avoiding algorithm needed) </br>
+Each Image has its Captions DB </br>
 
-An Example User:
+An Example User: </br>
 {
 	username: "usr123",
 	hash: ********,
