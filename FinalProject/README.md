@@ -20,20 +20,20 @@ Each Image has its Captions DB </br>
 
 An Example User: </br> <pre>
 {
-&nbspusername: "usr123",
-&nbsphash: ********,
-&nbsphistory: [ [Image upload history] [Image voting history] [Caption upload history] [Caption voting history] ]
+	username: "usr123",
+	hash: ********,
+	history: [ [Image upload history] [Image voting history] [Caption upload history] [Caption voting history] ]
 } </pre>
 
 An Example Image: </br> <pre>
 {
-name: "FunnyImage",
-creatorName: "Jack0245",
-score: 3 // # of upvotes
-captionsDB: // Captions uploaded by users
+	name: "FunnyImage",
+	creatorName: "Jack0245",
+	score: 3 // # of upvotes
+	captionsDB: // Captions uploaded by users
 } </pre>
 
-An example caption: </br> </pre>
+An example caption: </br> <pre>
 {
 	caption: "Gotta miss class because of that"
 	captionCreator: "Ruby542"
