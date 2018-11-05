@@ -1,4 +1,5 @@
 # Caption-o-cracy
+![prj_overview](img/finalprj_overview.png | width=100)
 
 ## Overview 
 What if you found an image on the Web and you know it is dying for a witty caption? Caption-o-cracy is here for you!
