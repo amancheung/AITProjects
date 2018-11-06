@@ -12,11 +12,14 @@ The application will store Users (Vote and Upload history), Images, and Image-Ca
 Each Image has its own ID (Collision avoiding algorithm needed) </br>
 Each Image has its Captions DB </br>
 
-An Example User: </br>
+An Example User: 
+> Will research into the integration with Facebook API and how it represents each user
+
 ``` javascript
 {
-	username: "usr123",
-	hash: ********,
+	faceBook_username: "Jack Daniels",
+	faceBook_hash: ********,
+	site_username: "Jack0245", //Custom username for the app - Collision detection and prompt new username input
 	history: [ [Image upload history] [Image voting history] [Caption upload history] [Caption voting history] ]
 }
 ```
@@ -25,7 +28,7 @@ An Example Image: </br>
 ``` javascript
 {
 	name: "FunnyImage",
-	creatorName: "Jack0245",
+	creatorName: "Jack0245", //Link to userID
 	score: 3 // # of upvotes
 	captionsDB: // Captions uploaded by users
 }
