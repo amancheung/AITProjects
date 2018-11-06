@@ -49,7 +49,8 @@ An example caption: </br>
 Sample screenshots
 
 ## Site-map: </br>
-Outline of website
+<img src="img/capt_cracy_sitemap.png" alt="site_map">
+
 
 ## User interactions:
 1) Upload images
